@@ -10,27 +10,35 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipView: UIView!
     @IBOutlet weak var tipLabel: UILabel!
-    @IBOutlet weak var billField: UITextField!
+    @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipSelector: UISegmentedControl!
+    @IBOutlet weak var splitTipButton: UIButton!
+
+    @IBOutlet weak var partSizeSelector: UISegmentedControl!
     @IBOutlet weak var onePersonLabel: UILabel!
     @IBOutlet weak var twoPeopleLabel: UILabel!
     @IBOutlet weak var threePeopleLabel: UILabel!
     @IBOutlet weak var fourPeopleLabel: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.billField.becomeFirstResponder()
+        billField.becomeFirstResponder()
+        disablesAutomaticKeyboardDismissal = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         tipSelector.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "tipPercentage")
+        partSizeSelector.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "partySize")
+        showSplitTab(self)
         calculateTip(self)
-        updateFonts()
+        updateFonts(self)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -42,8 +50,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBAction func showSplitTab(_ sender: AnyObject) {
+        if (billField.isEditing) {
+            view.endEditing(true)
+            splitTipButton.setTitle("Edit Bill", for: .normal)
+        } else {
+            billField.becomeFirstResponder()
+            splitTipButton.setTitle("Split Bill", for: .normal)
+        }
+    }
+
     @IBAction func onTap(_ sender: AnyObject) {
-        view.endEditing(true)
     }
 
     @IBAction func calculateTip(_ sender: AnyObject) {
@@ -51,17 +69,13 @@ class ViewController: UIViewController {
         let bill = Double(billField.text!) ?? 0
         let tip = bill * tipPercent[tipSelector.selectedSegmentIndex]
         let total = bill + tip
-        let onePersonTotal = total / 1
-        let twoPeopleTotal = total / 2
-        let threePeopleTotal = total / 3
-        let fourPeopleTotal = total / 4
-        
         
         tipLabel.text = String(format: "$%.2f", tip)
-        onePersonLabel.text = String(format: "$%.2f", onePersonTotal)
-        twoPeopleLabel.text = String(format: "$%.2f", twoPeopleTotal)
-        threePeopleLabel.text = String(format: "$%.2f", threePeopleTotal)
-        fourPeopleLabel.text = String(format: "$%.2f", fourPeopleTotal)
+        totalLabel.text = String(format: "$%.2f", total)
+        onePersonLabel.text = String(format: "$%.2f", total / 1)
+        twoPeopleLabel.text = String(format: "$%.2f", total / 2)
+        threePeopleLabel.text = String(format: "$%.2f", total / 3)
+        fourPeopleLabel.text = String(format: "$%.2f", total / 4)
         
         if (bill != 0) {
             tipView.isHidden = false
@@ -71,12 +85,8 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func hideTipView(_ sender: AnyObject) {
-        tipView.isHidden = true
-    }
-    
 
-    func updateFonts()  {
+    @IBAction func updateFonts(_ sender: AnyObject) {
         onePersonLabel.font = UIFont.monospacedDigitSystemFont(ofSize: UIFont.buttonFontSize, weight: UIFont.buttonFontSize)
         onePersonLabel.textColor = UIColor.white
         
@@ -89,7 +99,7 @@ class ViewController: UIViewController {
         fourPeopleLabel.font = UIFont.monospacedDigitSystemFont(ofSize: UIFont.buttonFontSize, weight: UIFont.buttonFontSize)
         fourPeopleLabel.textColor = UIColor.white
         
-        let selectedPartySize = UserDefaults.standard.integer(forKey: "partySize")
+        let selectedPartySize = partSizeSelector.selectedSegmentIndex
         
         if (selectedPartySize == 0) {
             onePersonLabel.font = UIFont.boldSystemFont(ofSize: 30)
@@ -107,8 +117,8 @@ class ViewController: UIViewController {
             fourPeopleLabel.font = UIFont.boldSystemFont(ofSize: 30)
             fourPeopleLabel.textColor = UIColor.green
         }
+
     }
-    
 
 }
 

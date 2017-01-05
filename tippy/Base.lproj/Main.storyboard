@@ -15,72 +15,72 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" id="Dgw-Fo-5hK">
-                                <frame key="frameInset" minY="399" width="375" height="268"/>
+                                <frame key="frameInset" minY="348" width="375" height="319"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="JMB-g7-jDk">
-                                        <frame key="frameInset" minX="79" minY="112" width="25" height="24"/>
+                                        <frame key="frameInset" minX="79" minY="202" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="wLZ-UM-QqG">
-                                        <frame key="frameInset" minX="46" minY="144" width="25" height="24"/>
+                                        <frame key="frameInset" minX="46" minY="234" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="F7Z-A8-cf5">
-                                        <frame key="frameInset" minX="46" minY="80" width="25" height="24"/>
+                                        <frame key="frameInset" minX="46" minY="170" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="UzW-Xn-0yx">
-                                        <frame key="frameInset" minX="46" minY="112" width="25" height="24"/>
+                                        <frame key="frameInset" minX="46" minY="202" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="cb4-nJ-28V">
-                                        <frame key="frameInset" minX="79" minY="144" width="25" height="24"/>
+                                        <frame key="frameInset" minX="79" minY="234" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="pYg-RJ-oOg">
-                                        <frame key="frameInset" minX="46" minY="176" width="25" height="24"/>
+                                        <frame key="frameInset" minX="46" minY="266" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="bSq-yp-asb">
-                                        <frame key="frameInset" minX="112" minY="176" width="25" height="24"/>
+                                        <frame key="frameInset" minX="112" minY="266" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="YrT-eT-Ywd">
-                                        <frame key="frameInset" minX="79" minY="176" width="25" height="24"/>
+                                        <frame key="frameInset" minX="79" minY="266" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="lzC-mq-kKd">
-                                        <frame key="frameInset" minX="145" minY="176" width="25" height="24"/>
+                                        <frame key="frameInset" minX="145" minY="266" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="People" id="oly-DO-unv">
-                                        <frame key="frameInset" minX="112" minY="144" width="25" height="24"/>
+                                        <frame key="frameInset" minX="112" minY="234" width="25" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9NY-7V-P3p">
-                                        <frame key="frameInset" minX="178" minY="114" width="150" height="21"/>
+                                        <frame key="frameInset" minX="178" minY="204" width="150" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hJF-wR-maA">
-                                        <frame key="frameInset" minX="178" minY="147" width="150" height="21"/>
+                                        <frame key="frameInset" minX="178" minY="237" width="150" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W3c-9o-iLH">
-                                        <frame key="frameInset" minX="178" minY="178" width="150" height="21"/>
+                                        <frame key="frameInset" minX="178" minY="268" width="150" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zgp-HY-dhT">
-                                        <frame key="frameInset" minX="178" minY="82" width="150" height="21"/>
+                                        <frame key="frameInset" minX="178" minY="172" width="150" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,12 +107,51 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="13M-2X-aM1">
-                                        <frame key="frameInset" minX="186" minY="29" width="152" height="21"/>
+                                        <frame key="frameInset" minX="215" minY="26" width="123" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Total Bill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lUD-Pf-6IE">
+                                        <frame key="frameInset" minX="273" minY="55" width="65" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b0H-Ir-21Y">
+                                        <frame key="frameInset" minX="186" minY="76" width="152" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="swj-HJ-nkX">
+                                        <frame key="frameInset" minX="64" minY="67" width="73" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Split Bill">
+                                            <color key="titleColor" red="0.0" green="0.78833306059999997" blue="0.03061604087" alpha="0.7484762855" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showSplitTab:" destination="BYZ-38-t0r" eventType="touchDown" id="f25-7E-ei0"/>
+                                        </connections>
+                                    </button>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" id="og4-Rj-iHX">
+                                        <frame key="frameInset" minX="16" minY="118" width="191" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="1"/>
+                                            <segment title="2"/>
+                                            <segment title="3"/>
+                                            <segment title="4"/>
+                                        </segments>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="updateFonts:" destination="BYZ-38-t0r" eventType="valueChanged" id="BFf-cc-AR2"/>
+                                        </connections>
+                                    </segmentedControl>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                             </view>
@@ -144,10 +183,13 @@
                         <outlet property="billField" destination="vVy-sh-fwf" id="lZx-zO-g08"/>
                         <outlet property="fourPeopleLabel" destination="W3c-9o-iLH" id="npy-pH-Gln"/>
                         <outlet property="onePersonLabel" destination="Zgp-HY-dhT" id="tnR-HI-aB5"/>
+                        <outlet property="partSizeSelector" destination="og4-Rj-iHX" id="cl3-z9-yyl"/>
+                        <outlet property="splitTipButton" destination="swj-HJ-nkX" id="yYh-pG-guB"/>
                         <outlet property="threePeopleLabel" destination="hJF-wR-maA" id="yjf-p1-1Y9"/>
                         <outlet property="tipLabel" destination="13M-2X-aM1" id="lXK-gY-BH1"/>
                         <outlet property="tipSelector" destination="3qM-bs-IeT" id="b9T-2a-umb"/>
                         <outlet property="tipView" destination="Dgw-Fo-5hK" id="D4P-bN-fUF"/>
+                        <outlet property="totalLabel" destination="b0H-Ir-21Y" id="QI0-Jm-Qcc"/>
                         <outlet property="twoPeopleLabel" destination="9NY-7V-P3p" id="lji-7Q-Nd5"/>
                     </connections>
                 </viewController>
